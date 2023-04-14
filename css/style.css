@@ -1,0 +1,143 @@
+body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%; 
+      max-height: 100%; 
+      font-family:Sans-serif;
+      line-height: 1.5em;
+    }
+    
+    #header {
+
+      position: absolute;
+      top: 0;
+      left: 200px;
+      width: 100%;
+      height: 100px;
+      border-bottom: 1px;
+      border-color: #BDC3C7;
+      overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+      background: #fff;
+    }
+
+     #header2 {
+
+      position: absolute;
+      top: 101px;
+      left: 200px;
+      width: 100%;
+      height: 50px; 
+      overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+      background: #FF6600;
+    }
+    
+    #nav {
+      position: absolute; 
+      top: 0;
+      bottom: 0;
+      left: 0; 
+      width: 200px;
+      overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+      background: #6495ED;    
+    }
+    
+    #logo {
+      padding:auto;
+      left: 10px;
+      top: auto;
+      position: absolute;
+      font-family: sans-serif;
+    }
+    #logo2 {
+      padding:auto;
+      left: 10px;
+      top: auto;
+      bottom: auto;
+      position: absolute;
+      font-family: sans-serif;
+    }
+    header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header2 ul {
+      margin: 0;
+      padding: 0;
+    }
+
+
+     #header2 ul li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+     line-height: 50px;
+    }
+
+    #header2 ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 14px 20px;
+    color: navy;
+    background-color: #ffba93;
+    border-radius: 5px;
+      }
+    #header2 ul li a:hover {
+    color : #fff;
+    background-color: #f37121;
+    } 
+
+    main {
+      position: fixed;
+      top: 150px; /* Set this to the height of the header */
+      left: 200px; 
+      right: 0;
+      bottom: 0;
+      overflow: auto; 
+      background: #BDC3C7;
+    }
+  
+    
+    .innertube {
+
+      margin: 10px; /* Provides padding for the content */
+    }
+
+    nav ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 1px;
+    }
+    nav h3  {
+      color: #fff;
+    }
+    
+    nav ul a {
+
+      color: darkgreen;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+    color : #fff;
+    background-color: #f37121;
+    } 
+
+    nav img {
+      padding: 10px;
+      width: 150px;
+    }
+        
+    /*IE6 fix*/
+    * html body{
+      padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
+    }
+    
+    * html main{ 
+      height: 100%; 
+      width: 100%; 
+    }
+    
+    </style>
