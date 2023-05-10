@@ -38,7 +38,7 @@ body {
       bottom: 0;
       left: 0; 
       width: 300px;
-      overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+      overflow: hidden; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
       background: #0D1E40;    
     }
     
@@ -108,10 +108,11 @@ body {
     nav ul{
       list-style-type: none;
       margin: 0;
-      padding: 1px;
+      padding: 15px;
     }
-    nav h3  {
+    nav h5  {
       color: #fff;
+      border-bottom: 1px solid #BBBBBB;
     }
     
     nav ul a {
@@ -128,6 +129,7 @@ body {
     nav img {
       padding: 10px;
       width: 200px;
+      float: center;
     }
         
     /*IE6 fix*/
