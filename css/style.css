@@ -29,7 +29,7 @@ body {
       width: 100%;
       height: 50px; 
       overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
-      background: #FF6600;
+      background: #CBCBCB;
     }
     
     #nav {
